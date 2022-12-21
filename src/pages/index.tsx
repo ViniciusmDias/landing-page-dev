@@ -6,10 +6,6 @@ import { Footer } from '../components/Footer';
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-
-  h1 {
-    color: ${(props) => props.theme.black};
-  }
 `;
 
 export default function Home() {

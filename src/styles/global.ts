@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body, input, textarea {
-    font: 400 1rem Lato, sans-serif;
+    font: 400 1rem 'Days One', sans-serif;
   }
 
   button {
@@ -32,25 +32,10 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
-  h2 {
+  h1 {
     font-size: 1.25rem;
-    font-weight: 700;
-    line-height: 1.875rem;
-    color: ${(props) => props.theme['gray-100']};
-  }
-
-  h3 {
-    font-weight: 700;
-    font-size: 1.125rem;
-    line-height: 1.25rem;
-  }
-
-  h5 {
-    font-size: 0.875rem;
-    font-weight: 400;
-    line-height: 1.25rem;
-    color: ${(props) => props.theme['gray-100']};
-    margin-bottom: 0.25rem;
+    line-height: 1.1em;
+    text-transform: uppercase;
   }
 
 `
