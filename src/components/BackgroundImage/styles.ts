@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 import Image from "next/image";
 
-
 export const Background = styled(Image)`
   position: absolute;
   z-index: 1;

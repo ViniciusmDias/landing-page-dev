@@ -38,4 +38,13 @@ export const GlobalStyle = createGlobalStyle`
     text-transform: uppercase;
   }
 
-`
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+    line-height: 1rem ;
+    font-family: 'Poppins', sans-serif;
+  }
+`;

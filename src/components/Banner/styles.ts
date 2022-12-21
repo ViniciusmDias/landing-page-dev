@@ -1,9 +1,9 @@
-import Image from 'next/image';
 import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  position: relative;
 `;
 
 export const Form = styled.form`
@@ -50,8 +50,12 @@ export const Form = styled.form`
     }
   }
 
-  button {
-    margin: 0.625rem;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin: 0 0.625rem 0.625rem 0.625rem;
     border-radius: 0.25rem;
     min-height: 2.5rem;
     padding: 0.75rem 2rem;
@@ -71,6 +75,22 @@ export const Form = styled.form`
     );
     transition: background 1.6s cubic-bezier(0.55, 0.1, 0.47, 0.94) 0s;
   }
+
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 1.875rem;
+    }
+
+    input {
+      width: 40rem;
+      margin: 0.5rem auto;
+    }
+
+    a {
+      width: 40rem;
+      margin: 0rem auto 0.5rem;
+    }
+  }
 `;
 
 export const Logo = styled.div`
@@ -81,5 +101,15 @@ export const Logo = styled.div`
   img {
     max-width: 85%;
     height: 25vw;
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 4rem;
+
+    img {
+      width: 32%;
+      max-width: 17.5rem;
+      height: auto;
+    }
   }
 `
