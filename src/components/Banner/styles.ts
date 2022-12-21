@@ -11,6 +11,8 @@ export const Form = styled.form`
   flex-direction: column;
   z-index: 2;
   padding: 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
 
   h1 {
     color: ${(props) => props.theme.yellow};

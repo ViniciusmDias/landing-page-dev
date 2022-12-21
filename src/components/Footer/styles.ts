@@ -7,6 +7,8 @@ export const Container = styled.div`
   padding: 1rem;
   background-color: ${(props) => props.theme.black};
   flex: 1;
+  max-width: 50rem;
+  margin: 0 auto;
 
   @media (min-width: 768px) {
     flex-direction: row;
