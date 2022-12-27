@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   button {
-    font: 400 0.875rem Inter, sans-serif;
+    font: 400 0.875rem 'Poppins', sans-serif;
     cursor: pointer;
     transition: all 0.4 ease;
     

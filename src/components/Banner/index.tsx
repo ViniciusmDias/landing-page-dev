@@ -8,7 +8,7 @@ return (
   <S.Container>
     <S.Form>
       <S.Logo>
-        <Image src={img} alt="logo" />
+        <Image src={img} alt="logo" width={1024} height={333} />
       </S.Logo>
       <h1>
         Seja avisado das aulas onde eu mostro os bastidores dos meus lançamentos

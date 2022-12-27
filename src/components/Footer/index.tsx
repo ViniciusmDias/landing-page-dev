@@ -19,7 +19,7 @@ return (
       <p>Copyright - 2022 © Todos os Direitos Reservados</p>
     </S.Column>
     <S.Column>
-      <Image src={logo} alt="logo" />
+      <Image src={logo} alt="logo" width={300} height={89} />
     </S.Column>
     <S.Column>
       <a href="https://mentoriaxflow.com.br/politica-de-privacidade/">
